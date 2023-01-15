@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>update lab record</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="lab.css">
+</head>
+<body>
+    <header id="head1">
+        <div class="head">
+        <img src="logo.png" alt="logo">
+        <h1>LAB MANAGEMENT SYSTEM</h1>
+        
+
+    </div>
+    </header>
+   
+    <nav id="nav">
+        <div class="nav">
+          <ul>
+            <li class="item"><a href="lab attendant screen.html">Home</a></li>
+  
+            <li class="item"><a href="">reviews</a></li>
+            <li class="item"><a href="">contact us</a></li>
+            <li class="item">
+              <a class="icon" href=""
+                ><i class="material-icons" style="color: rgb(0, 128, 128)" ;
+                  >phone</i
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <h1 class="h-primary center">UPDATE LAB RECORD</h1>
+    <div class="container">
+        <div class="login_form">
+            <form action="">
+                <div class="form">
+                  <br>
+    
+                  <label for= "lab_name">Enter lab name:</label>
+                  <input type="text"  name="lab_name" id="lab_name" required placeholder="Enter lab name" maxlength="20" pattern="[A-Za-z0-9.-\s]*">
+
+                  <br>
+                  <label for= "lab_att">Enter attendant name:</label>
+                  <input type="text"  name="lab_att" id="lab_att" placeholder="Enter name" required maxlength="10" pattern="[A-Za-z.\s]*">
+    
+                  <br>
+                  <label for= "comp_no">Enter No. of computers:</label>
+                  <input type="number"  name="comp_no" id="comp_no" placeholder="Enter No. of computers" required maxlength="2" min="0" pattern="[0-9]*">
+
+                  <br>
+                  <label for= "fans">Fans:</label>
+                  <input type="number"  name="fans" id="fans" placeholder="Enter No. of fans" required maxlength="2" min="0" pattern="[0-9]*">
+
+                  <br>
+                  <label for= "lights">lights:</label>
+                  <input type="number"  name="lights" id="lights" placeholder="Enter No. of lights" required maxlength="2" min="0" pattern="[0-9]*">
+
+                  <br>
+                  <label for= "AC">AC:</label>
+                  <input type="number"  name="AC" id="lights" placeholder="Enter No. of AC" required maxlength="2" pattern="[0-9]*" min="0"> 
+                
+           <button type="Submit">UPDATE</button>
+        </div>   
+            </form>
+        </div>
+    </div>
+</body>
+</html>
